@@ -1,2 +1,3 @@
 ﻿  test.c
-  test_2_15.vcxproj -> E:\代码\VS\test_2_15\Debug\test_2_15.exe
+  LINK : 没有找到 E:\代码\github代码\String-rotation\test_2_15\Debug\test_2_15.exe 或上一个增量链接没有生成它；正在执行完全链接
+  test_2_15.vcxproj -> E:\代码\github代码\String-rotation\test_2_15\Debug\test_2_15.exe
