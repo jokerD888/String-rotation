@@ -139,9 +139,10 @@ int is_left_move3(char* s1, char* s2)
 
 int is_left_move4(char* s1, char* s2)
 {
-	int len = strlen(s1);
+	int len1 = strlen(s1);
+	int len2 = strlen(s2);
 	//1.追加自身
-	strncat(s1, s1, len);
+	strncat(s1, s1, len1);
 	//2.判断s2是否是s1的字串
 	//可用strstr函数，若找到返回字串首元素地址，若找不到，返回空指针
 	char* ret = strstr(s1, s2);
